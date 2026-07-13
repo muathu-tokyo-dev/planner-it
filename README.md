@@ -9,5 +9,5 @@
     <img src="https://img.shields.io/badge/TELEVISION-YES-brightgreen?style=for-the-badge" alt="Build Status" />
     <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge" alt="License Status" />
   </p>
-  
-</div>
+
+</div> <hr>
