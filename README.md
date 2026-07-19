@@ -1,75 +1,44 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img width="492" height="270" alt="8bit GIF" src="https://github.com/user-attachments/assets/d7c071c8-5eec-4e44-aceb-c377023b34b4" />
+  <h1>PLANNER IT 📋</h1>
+  <h3>An web application to plan every details for your project management</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <p align="center">
+    <img src="https://img.shields.io/badge/MOBILE-YES-brightgreen?style=for-the-badge" alt="Build Status" />
+    <img src="https://img.shields.io/badge/DESKTOP-YES-brightgreen?style=for-the-badge" alt="Build Status" />
+    <img src="https://img.shields.io/badge/TELEVISION-YES-brightgreen?style=for-the-badge" alt="Build Status" />
+    <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge" alt="License Status" />
+  </p>
 
-Currently, two official plugins are available:
+</div> <hr>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features 🚀
 
-## React Compiler
+## Sections 📚
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Prerequisites 📥
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Before setting up this project, please download and install the following required tools:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+*   **[Git](https://git-scm.com)**: Version control system required to clone the repository to your computer.
+*   **[VS Code](https://visualstudio.com)**: The recommended text editor for modern web development.
+*   **[Live Server Extension](https://visualstudio.com)**: A VS Code extension to preview your portfolio live with hot-reload support.
+*   **[Font Awesome](https://fontawesome.com)**: Essential web toolkit for icons 
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+## Installation 📦
+1. Clone the repository to your local machine:
+```bash
+https://github.com/muathu-tokyo-dev/planner-it.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+2. Navigate into the project directory:
+```bash
+cd planner-it
 ```
+<hr>
+<h4>✨ Support my project</h4>
+  <a href="https://paypal.me/Huylorddd/5usd">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
+  </a>
+
